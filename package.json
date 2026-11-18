@@ -1,12 +1,19 @@
 {
   "name": "mineru",
-  "private": true,
+  "version": "1.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyper-code-harness/mineru"
+  },
   "procs": {
     "src": "src",
     "label": "MinerU PDF",
     "icon": "ph-file-text",
     "optional": true,
-    "description": "Convert complex PDFs and scans to Markdown with MinerU on Apple Silicon and inspect conversion artifacts."
+    "description": "Convert complex PDFs and scans to Markdown with MinerU on Apple Silicon and inspect conversion artifacts.",
+    "requires": [
+      "marker"
+    ]
   }
 }
